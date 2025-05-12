@@ -1,0 +1,1 @@
+Note taking application built using compose and local database(roomDB)
