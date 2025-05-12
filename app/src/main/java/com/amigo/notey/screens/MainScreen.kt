@@ -28,6 +28,9 @@ fun NoteAppScreen(viewModel: NoteViewModel) {
         }
     ) {
         val notes by viewModel.allNotes.observeAsState(emptyList())
-        DisplayNoteList(notes = notes)
+        DisplayNoteList(
+            notes = notes,
+            onDeleteNote = { noteId -> viewModel.deleteNote(noteId) }
+        )
     }
 }

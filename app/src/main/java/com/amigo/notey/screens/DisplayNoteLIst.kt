@@ -18,7 +18,11 @@ import com.amigo.notey.roomdb.Note
 
 
 @Composable
-fun DisplayNoteList(notes: List<Note>, modifier: Modifier = Modifier) {
+fun DisplayNoteList(
+    notes: List<Note>,
+    modifier: Modifier = Modifier,
+    onDeleteNote: (Int) -> Unit = {}
+) {
 
     Column {
         Spacer(
@@ -33,7 +37,10 @@ fun DisplayNoteList(notes: List<Note>, modifier: Modifier = Modifier) {
             contentPadding = PaddingValues(16.dp)
         ) {
             items(notes) { note ->
-                NoteListItem(note = note)
+                NoteListItem(
+                    note = note,
+                    onDelete = onDeleteNote
+                )
             }
         }
     }
