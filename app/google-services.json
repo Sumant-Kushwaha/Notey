@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182622849828",
+    "project_id": "fir-9ce03",
+    "storage_bucket": "fir-9ce03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182622849828:android:76ed503e4c8c653cef81b1",
+        "android_client_info": {
+          "package_name": "com.amigo.firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiwidymmDgmg5XVq5IpYP0hMWmr6cYVow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182622849828:android:3527847dbf7bf31cef81b1",
+        "android_client_info": {
+          "package_name": "com.amigo.notey"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiwidymmDgmg5XVq5IpYP0hMWmr6cYVow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
